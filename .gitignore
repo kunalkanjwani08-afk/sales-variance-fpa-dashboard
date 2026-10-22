@@ -218,3 +218,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---------------------------------------------------------------------------
+# Project-specific
+# ---------------------------------------------------------------------------
+# OS / editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Excel temporary / lock files (created while a workbook is open)
+~$*.xls*
+~$*.csv
+.~lock.*
+
+# Scratch and backup files
+*.tmp
+*.bak
+*.swp
+_to_delete/
