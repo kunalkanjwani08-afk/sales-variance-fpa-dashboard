@@ -82,10 +82,8 @@ sales-variance-fpa-dashboard/
 ├── dashboard/
 │   ├── build_variance_dashboard.py     builds the HTML dashboard
 │   └── Sales_Variance_Dashboard.html   the interactive dashboard (ready to open)
-├── outputs/
-│   └── Sales_Variance_Analysis.xlsx    analysis workbook (19 sheets)
-├── powerbi/                            reserved for a Power BI version (not yet populated)
-└── sql/                                reserved for SQL queries (not yet populated)
+└── outputs/
+    └── Sales_Variance_Analysis.xlsx    analysis workbook (19 sheets)
 ```
 
 ## How to run
