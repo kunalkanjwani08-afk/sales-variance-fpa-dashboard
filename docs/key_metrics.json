@@ -1,0 +1,189 @@
+{
+  "generated_by": "scripts/build_insights.py",
+  "claims": [
+    {
+      "key": "sales_variance_usd",
+      "label": "Sales variance",
+      "text": "–$10.9M",
+      "expected": -10892562.76,
+      "unit": "usd",
+      "tol": 0.005
+    },
+    {
+      "key": "sales_variance_pct",
+      "label": "Sales variance %",
+      "text": "–2.04%",
+      "expected": -2.04,
+      "unit": "pct",
+      "tol": 0.0051
+    },
+    {
+      "key": "gp_variance_usd",
+      "label": "Gross-profit variance",
+      "text": "–$13.3M",
+      "expected": -13283618.09,
+      "unit": "usd",
+      "tol": 0.005
+    },
+    {
+      "key": "gp_variance_pct",
+      "label": "Gross-profit variance %",
+      "text": "–6.53%",
+      "expected": -6.53,
+      "unit": "pct",
+      "tol": 0.0051
+    },
+    {
+      "key": "price_effect_usd",
+      "label": "Price effect",
+      "text": "–$11.2M",
+      "expected": -11162266.63,
+      "unit": "usd",
+      "tol": 0.005
+    },
+    {
+      "key": "pure_volume_usd",
+      "label": "Pure volume effect",
+      "text": "–$1.4M",
+      "expected": -1434886.01,
+      "unit": "usd",
+      "tol": 0.005
+    },
+    {
+      "key": "mix_usd",
+      "label": "Mix effect",
+      "text": "+$1.7M",
+      "expected": 1704589.88,
+      "unit": "usd",
+      "tol": 0.005
+    },
+    {
+      "key": "cost_effect_usd",
+      "label": "Cost effect (gross profit)",
+      "text": "–$2.1M",
+      "expected": -2142168.53,
+      "unit": "usd",
+      "tol": 0.005
+    },
+    {
+      "key": "price_realisation_pct",
+      "label": "Average selling price vs target",
+      "text": "–2.09%",
+      "expected": -2.09,
+      "unit": "pct",
+      "tol": 0.0051
+    },
+    {
+      "key": "qty_attainment_pct",
+      "label": "Quantity attainment",
+      "text": "99.73%",
+      "expected": 99.73,
+      "unit": "pct",
+      "tol": 0.0051
+    },
+    {
+      "key": "gross_margin_target_pct",
+      "label": "Target gross margin",
+      "text": "38.18%",
+      "expected": 38.18,
+      "unit": "pct",
+      "tol": 0.0051
+    },
+    {
+      "key": "gross_margin_actual_pct",
+      "label": "Actual gross margin",
+      "text": "36.43%",
+      "expected": 36.43,
+      "unit": "pct",
+      "tol": 0.0051
+    },
+    {
+      "key": "months_below",
+      "label": "Months below target",
+      "text": "20 of 24",
+      "expected": 20,
+      "unit": "num",
+      "tol": 0
+    },
+    {
+      "key": "worst_region",
+      "label": "Weakest region",
+      "text": "Latin America",
+      "expected": "Latin America",
+      "unit": "text",
+      "tol": 0
+    },
+    {
+      "key": "worst_region_pct",
+      "label": "Latin America sales variance %",
+      "text": "–10.65%",
+      "expected": -10.65,
+      "unit": "pct",
+      "tol": 0.0051
+    },
+    {
+      "key": "worst_region_share_of_net_pct",
+      "label": "Latin America share of the net shortfall",
+      "text": "64%",
+      "expected": 64.39,
+      "unit": "pct",
+      "tol": 0.51
+    },
+    {
+      "key": "best_region",
+      "label": "Strongest region",
+      "text": "Asia Pacific",
+      "expected": "Asia Pacific",
+      "unit": "text",
+      "tol": 0
+    },
+    {
+      "key": "best_region_pct",
+      "label": "Asia Pacific sales variance %",
+      "text": "+4.15%",
+      "expected": 4.15,
+      "unit": "pct",
+      "tol": 0.0051
+    },
+    {
+      "key": "discounted_lines_qty_att_pct",
+      "label": "Discounted lines: quantity attainment",
+      "text": "112.11%",
+      "expected": 112.11,
+      "unit": "pct",
+      "tol": 0.0051
+    },
+    {
+      "key": "discounted_lines_gp_var_pct",
+      "label": "Discounted lines: gross-profit variance",
+      "text": "–16.04%",
+      "expected": -16.04,
+      "unit": "pct",
+      "tol": 0.0051
+    },
+    {
+      "key": "other_lines_gp_var_pct",
+      "label": "Other lines: gross-profit variance",
+      "text": "–4.23%",
+      "expected": -4.23,
+      "unit": "pct",
+      "tol": 0.0051
+    },
+    {
+      "key": "persistent_pairs",
+      "label": "Persistent region × category shortfalls",
+      "text": "13 of 25",
+      "expected": 13,
+      "unit": "num",
+      "tol": 0
+    },
+    {
+      "key": "products_above_target",
+      "label": "Products above target",
+      "text": "6 of 27",
+      "expected": 6,
+      "unit": "num",
+      "tol": 0
+    }
+  ]
+}

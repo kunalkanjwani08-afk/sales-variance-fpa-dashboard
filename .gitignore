@@ -239,3 +239,8 @@ desktop.ini
 *.bak
 *.swp
 _to_delete/
+
+# Local virtual environments and test artefacts
+.venv*/
+venv*/
+test-results/

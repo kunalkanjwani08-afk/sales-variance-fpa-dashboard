@@ -1,0 +1,31 @@
+[project]
+name = "sales-variance-fpa-dashboard"
+version = "2.0.0"
+description = "Reproducible FP&A sales variance analysis: synthetic messy data, audited cleaning, price/volume/mix bridges, Excel reporting and an offline dashboard."
+requires-python = ">=3.11"
+license = "MIT"
+readme = "README.md"
+
+# This is a scripts-and-notebooks project, not an installable package.
+# Install with:  pip install -r requirements.txt   (or requirements-dev.txt)
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers"
+markers = [
+    "browser: opens the built dashboard in headless Chromium (skipped if Playwright is not installed)",
+    "slow: runs the full pipeline end to end",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+extend-exclude = ["notebooks"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "B", "I", "UP"]
+ignore = ["E501", "E731", "E741"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["fpa_lib"]
