@@ -1,0 +1,4 @@
+# Keep line endings identical on Windows and in CI (the tests compare generated files byte for byte)
+* text=auto eol=lf
+*.xlsx binary
+*.png binary

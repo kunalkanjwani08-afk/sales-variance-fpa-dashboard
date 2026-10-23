@@ -1,6 +1,6 @@
-pandas
-numpy
-openpyxl
-XlsxWriter
-matplotlib
-jupyter
+# Runtime dependencies for the pipeline (generate -> clean -> analyse -> insights -> dashboard).
+# Tested on Python 3.11, 3.12 and 3.13. numpy 2.4.x is the newest line that still supports 3.11.
+pandas==3.0.5
+numpy==2.4.6
+openpyxl==3.1.5
+XlsxWriter==3.2.9
